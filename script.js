@@ -9,17 +9,12 @@ function fibonacci(num) {
 	var num2 = 1;
 	var sum;
 	var i=0;
-	for(int i =0; i < num; i++){
+	for(i=0;i < num; i++){
 		sum = num1 + num2;
 		num1 = num2;
 		num2 = sum;
 	}
 	return num2;
-    // } else if (num === 2) {
-    //     return 1;
-    // } else {
-    //     return fibonacci(num - 1) + fibonacci(num - 2);
-    // }
 }
 
 module.exports = fibonacci;
